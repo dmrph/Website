@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+@layer base {
+  body {
+    @apply bg-background-light text-text-light dark:bg-background-dark dark:text-text-dark;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  code {
+    font-family: 'Fira Code', monospace;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply px-4 py-2 font-medium transition-colors rounded-md;
+  }
+  
+  .btn-primary {
+    @apply text-white bg-primary-light hover:bg-primary-light/90 dark:bg-primary-dark dark:hover:bg-primary-dark/90;
+  }
+  
+  .btn-secondary {
+    @apply text-white bg-secondary-light hover:bg-secondary-light/90 dark:bg-secondary-dark dark:hover:bg-secondary-dark/90;
+  }
+  
+  .btn-outline {
+    @apply border border-primary-light text-primary-light hover:bg-primary-light/10 dark:border-primary-dark dark:text-primary-dark dark:hover:bg-primary-dark/10;
+  }
+  
+  .card {
+    @apply p-6 bg-white rounded-lg shadow-md dark:bg-gray-800;
+  }
+  
+  .section {
+    @apply py-16;
+  }
+  
+  .section-title {
+    @apply mb-12 text-3xl font-bold text-center;
+  }
+}
+
+/* Smooth transitions for dark mode */
+.transition-theme {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
