@@ -56,7 +56,7 @@ const Home: React.FC = () => {
       title: "TurtleBot Swarm Intelligence",
       description: "Contributed to a real-time swarm system using TurtleBots and Raspberry Pi for military-style search and rescue operations.",
       technologies: ["Python", "ROS 2 Jazzy", "LiDAR", "YOLOv8", "Redis", "MongoDB", "Gazebo"],
-      githubUrl: "https://github.com/dmrph/TurtleBot-Swarm",
+      githubUrl: "https://github.com/dmrph/TurtleBot-Swarm-AI",
       image: "/images/turtlebot.png"
     },
     {
