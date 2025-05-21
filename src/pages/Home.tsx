@@ -60,6 +60,13 @@ const Home: React.FC = () => {
       image: "/images/turtlebot.png"
     },
     {
+      title: "Global Internet Usage 3D Demo",
+      description: "An interactive 3D globe visualization to explore global internet usage statistics by country and continent. Built with Three.js and GSAP, featuring real-time data from the World Bank.",
+      technologies: ["Three.js", "GSAP", "World Bank API", "HTML", "CSS"],
+      githubUrl: "https://github.com/dmrph/global-internet-usage-viz",
+      image: "/images/globe.png"
+    },
+    {
       title: "DecibelDetect",
       description: "Designed a web platform that visualizes urban noise pollution using user-submitted decibel data with interactive noise heatmap and real-time data visualization.",
       technologies: ["React", "Google Maps API", "FastAPI", "Python"],
@@ -84,7 +91,7 @@ const Home: React.FC = () => {
       title: "RoutePlanner",
       description: "Route planner for data structures class at Penn State University. Spring of 2024.",
       technologies: ["HTML"],
-      githubUrl: "https://github.com/SamAxler/FinalProjectCMPSC",
+      githubUrl: "https://github.com/dmrph/RoutePlanner-CMPSC-Final",
       image: "/images/route-planner.png"
     }
   ];
