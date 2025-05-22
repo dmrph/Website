@@ -64,6 +64,7 @@ const Home: React.FC = () => {
       description: "An interactive 3D globe visualization to explore global internet usage statistics by country and continent. Built with Three.js and GSAP, featuring real-time data from the World Bank. https://vizinternetusage.com",
       technologies: ["Three.js", "GSAP", "World Bank API", "HTML", "CSS"],
       githubUrl: "https://github.com/dmrph/global-internet-usage-viz",
+      liveUrl: "https://vizinternetusage.com",
       image: "/images/globe.png"
     },
     {
