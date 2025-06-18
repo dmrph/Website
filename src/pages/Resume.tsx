@@ -49,7 +49,7 @@ const Resume: React.FC = () => {
 
           <div className="flex justify-center">
             <Document
-              file="/DavidMurphy_Resume.pdf"
+              file="/David_Murphy_Resume.pdf"
               onLoadSuccess={onDocumentLoadSuccess}
               className="border border-gray-200 dark:border-gray-700"
             >
