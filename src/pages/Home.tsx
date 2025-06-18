@@ -156,8 +156,8 @@ const Home: React.FC = () => {
   ];
 
   // Resume URLs
-  const resumeUrl = "/DavidMurphy_Resume.pdf"; // Will be copied to public folder
-  const downloadUrl = "/DavidMurphy_Resume.pdf";
+  const resumeUrl = "/David_Murphy_Resume.pdf"; // Will be copied to public folder
+  const downloadUrl = "/David_Murphy_Resume.pdf";
 
   return (
     <div>
