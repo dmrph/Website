@@ -6,11 +6,11 @@ A modern, responsive portfolio website built with **React** and **Tailwind CSS**
 
 ## 🛠️ Features
 
-- **Responsive Design** — Optimized for all device sizes  
-- **Dark Mode Toggle** — Light/dark themes with user-preference persistence  
-- **Resume Integration** — View and download my latest resume  
-- **Project Showcase** — Interactive cards with descriptions and GitHub links  
-- **Skills & Experience** — Clean, categorized display of my tech stack and work history  
+- **Responsive Design** - Optimized for all device sizes  
+- **Dark Mode Toggle** - Light/dark themes with user-preference persistence  
+- **Resume Integration** - View and download my latest resume  
+- **Project Showcase** - Interactive cards with descriptions and GitHub links  
+- **Skills & Experience** - Clean, categorized display of my tech stack and work history  
 
 ---
 
