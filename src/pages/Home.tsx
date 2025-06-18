@@ -30,7 +30,22 @@ const Home: React.FC = () => {
     },
     {
       category: "Programming Languages & Systems",
-      items: ["C++", "Rust", "Java", "JavaScript", "Go", "Kotlin", "MATLAB", "ROS2", "PowerShell", "VBA", "ROS2", "Apriltags", "ConnectWise", "Kaseya"],
+      items: [
+        "C++",
+        "Rust",
+        "Java",
+        "JavaScript",
+        "Go",
+        "Kotlin",
+        "MATLAB",
+        "ROS2",
+        "PowerShell",
+        "VBA",
+        "ROS2",
+        "Apriltags",
+        "ConnectWise",
+        "Kaseya",
+      ],
     },
     {
       category: "Developer Tools",
@@ -38,7 +53,7 @@ const Home: React.FC = () => {
         "AWS",
         "Azure",
         "Docker",
-        "GitHub Actions".
+        "GitHub Actions",
         "Git",
         "Linux",
         "Neovim",
